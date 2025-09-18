@@ -28,7 +28,15 @@ Frontend: HTML, CSS, JavaScript, AJAX, jQuery
 
 IDE: PyCharm
 
-Web Browsers Supported: Mozilla, Google Chrome, IE8, Opera
+Web Browsers Supported:
+
+Mozilla
+
+Google Chrome
+
+Internet Explorer 8
+
+Opera
 
 📂 Project Structure
 
