@@ -1,82 +1,82 @@
-🎓 Student Record Management System
+# 🎓 Student Record Management System
 
 This is a Django-based web application that manages student records efficiently. It allows administrators and faculty to maintain, update, and retrieve student details such as personal information, academic records, and performance reports.
 
-📌 Features
+---
 
-Add, update, and delete student records
+## 📌 Features
 
-Search and filter students by name, roll number, or department
+* Add, update, and delete student records
+* Search and filter students by name, roll number, or department
+* Secure authentication for admin and faculty users
+* Interactive UI with AJAX and jQuery for smooth navigation
+* MySQL database integration for reliable data storage
+* Role-based access control for better data security
 
-Secure authentication for admin and faculty users
+---
 
-Interactive UI with AJAX and jQuery for smooth navigation
+## 🧰 Tech Stack
 
-MySQL database integration for reliable data storage
+* **Language:** Python
+* **Framework:** Django
+* **Database:** MySQL
+* **Frontend:** HTML, CSS, JavaScript, AJAX, jQuery
+* **IDE:** PyCharm
+* **Web Browsers Supported:**
 
-Role-based access control for better data security
+  * Mozilla
+  * Google Chrome
+  * Internet Explorer 8
+  * Opera
 
-🧰 Tech Stack
+---
 
-Language: Python
+## 📂 Project Structure
 
-Framework: Django
+* Install dependencies:
 
-Database: MySQL
+  ```bash
+  pip install -r requirements.txt
+  ```
+* Run database migrations:
 
-Frontend: HTML, CSS, JavaScript, AJAX, jQuery
+  ```bash
+  python manage.py migrate
+  ```
+* Start the server:
 
-IDE: PyCharm
+  ```bash
+  python manage.py runserver
+  ```
+* Open in your browser at:
 
-Web Browsers Supported:
+  ```
+  http://127.0.0.1:8000/
+  ```
 
-Mozilla
+---
 
-Google Chrome
+## 🧪 Example Functionalities
 
-Internet Explorer 8
+* **Admin Panel:** Manage departments, faculty, and student records
+* **Faculty Panel:** Add student marks, attendance, and update profiles
+* **Student Panel:** View personal details, grades, and attendance reports
 
-Opera
+---
 
-📂 Project Structure
+## 📝 Notes
 
-Install dependencies:
+* The database schema (student\_db.sql) must be imported into MySQL before running the project.
+* You can customize forms, templates, and models as per your institutional needs.
 
-pip install -r requirements.txt
+---
 
+## 📄 License
 
-Run database migrations:
+* This project is licensed under the MIT License - see the LICENSE file for details.
 
-python manage.py migrate
+---
 
+## 📬 Contact
 
-Start the server:
-
-python manage.py runserver
-
-
-Open in your browser at:
-
-http://127.0.0.1:8000/
-
-🧪 Example Functionalities
-
-Admin Panel: Manage departments, faculty, and student records
-
-Faculty Panel: Add student marks, attendance, and update profiles
-
-Student Panel: View personal details, grades, and attendance reports
-
-📝 Notes
-
-The database schema (student_db.sql) must be imported into MySQL before running the project.
-
-You can customize forms, templates, and models as per your institutional needs.
-
-📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-📬 Contact
-
-For questions or suggestions, feel free to open an issue or reach out at shrikant31thakare@gmail.com
+* For questions or suggestions, feel free to open an issue or reach out at **[shrikant31thakare@gmail.com](mailto:shrikant31thakare@gmail.com)
